@@ -1,16 +1,21 @@
-### Hi there 👋
-
-<!--
-**mtcarfe/mtcarfe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```swift
+let mtcarfe = Developer(
+    name: "Mateus Ferreira",
+    role: "Computer Engineer",
+    languages: [
+        Language("Portuguese", proficiency: 5),
+        Language("English", proficiency: 4),
+        Language("Italian", proficiency: 1)
+    ],
+    technologies: [
+        Technology("Swift", level: .newbie),
+        Technology("TypeScript", level: .pro),
+        Technology("Python")
+    ],
+    tools: ["Xcode", "WebStorm", "Warp"],
+    databases: ["MongoDB", "PostgreSQL"],
+    deployments: ["Docker", "DigitalOcean"],
+    operatingSystems: ["macOS", "Linux"],
+    currentlyLearning: ["Angular", "React", "Flutter"]
+)
+```
