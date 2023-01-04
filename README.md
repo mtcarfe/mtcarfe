@@ -16,6 +16,6 @@ let mtcarfe = Developer(
     databases: ["MongoDB", "PostgreSQL"],
     deployments: ["Docker", "DigitalOcean"],
     operatingSystems: ["macOS", "Linux"],
-    currentlyLearning: ["Angular", "React", "Flutter"]
+    currentlyLearning: ["Angular", "React", "Flutter", "SwiftUI"]
 )
 ```
